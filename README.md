@@ -130,6 +130,7 @@ cd glibc-2.22
 
 # no clue what "eag" means, but saw it here https://access.redhat.com/discussions/3244811#comment-1885041
 mkdir eag
+cd eag
 
 # by default this fails from warnings about "else" brackets,
 # so disable that, and also make sure we compile to a custom folder
